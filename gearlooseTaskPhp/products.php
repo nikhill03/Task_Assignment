@@ -26,7 +26,7 @@ require 'includes/common.php';
 
   <div class="flex flex-col items-start min-h-[100vh]">
 
-    <div class="bg-orange-400" id="head">
+    <div class="" id="head">
       <div class="text-center mb-1 p-2 ">
         <h1 class="text-4xl font-bold">GearLoose Labs!</h1>
         <p class="font-semibold text-xl">Lab Equipments, Accessories, all at one place.</p>
