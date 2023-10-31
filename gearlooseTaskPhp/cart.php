@@ -8,14 +8,14 @@ require 'includes/common.php'
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="author" content="Anmol Sharma">
+    <meta name="author" content="Nikhil Kumar">
 
     <link href="fonts/material-icons.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet" type="text/css" />
     <script src="js/tailwind.js"></script>
 
 
-    <title>Lifestyle Store</title>
+    <title>GearLooseLabs</title>
 </head>
 <style>
     table,
@@ -37,7 +37,7 @@ require 'includes/common.php'
 
     <div class="flex flex-col min-h-[100vh] items-center w-full gap-8">
 
-        <div class="head bg-gray-400 flex flex-col items-center p-4 w-full">
+        <div class="head bg-orange-400 flex flex-col items-center p-4 w-full">
             <h2 class="font-bold text-4xl">Cart</h2>
             <p class="">Following items were added in your cart : </p>
         </div>
@@ -126,11 +126,11 @@ require 'includes/common.php'
             <?php
             if ($total == 0) {
             ?>
-                <a id="link" class="p-2 bg-blue-400 text-[ededed] w-full" style="text-decoration: none" href="">Confirm Order</a>
+                <a id="link" class="p-2 bg-blue-600 text-[ededed] w-full" style="text-decoration: bold" href="">Confirm Order</a>
             <?php
             } else {
             ?>
-                <a id="link" class="p-2 bg-blue-400 text-[ededed] w-full" style="text-decoration: none" href="">Confirm Order</a>
+                <a id="link" class="p-2 bg-blue-600 text-[ededed] w-full" style="text-decoration: bold" href="">Confirm Order</a>
             <?php
             }
             ?>
