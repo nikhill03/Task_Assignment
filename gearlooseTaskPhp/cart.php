@@ -9,8 +9,6 @@ require 'includes/common.php'
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Nikhil Kumar">
-
-    <link href="fonts/material-icons.css" rel="stylesheet">
     <link href="css/index.css" rel="stylesheet" type="text/css" />
     <script src="js/tailwind.js"></script>
 
@@ -94,7 +92,7 @@ require 'includes/common.php'
                                     ?>
                                 </td>
                                 <td>
-                                    <a href="cart_remove.php?id=<?php echo $ro["id"] ?>" class="font-[14px] text-blue-400 flex flex-col items-center justify-center"><img src="icons/delete.png" alt="remove" class="w-[24px]"> <p>Remove from cart</p></a>
+                                    <a href="cart_remove.php?id=<?php echo $ro["id"] ?>" class="font-[14px] text-blue-400 flex flex-col items-center justify-center"><img src="icons/delete.png" alt="remove" class="w-[40px]"></a>
                                 </td>
                             </tr>
                     <?php
@@ -126,11 +124,11 @@ require 'includes/common.php'
             <?php
             if ($total == 0) {
             ?>
-                <a id="link" class="p-2 bg-blue-600 text-[ededed] w-full" style="text-decoration: bold" href="">Confirm Order</a>
+                <a id="link" class="p-2 bg-orange-400 font-bold text-xl w-full" style="text-decoration: bold" href="">Confirm Order</a>
             <?php
             } else {
             ?>
-                <a id="link" class="p-2 bg-blue-600 text-[ededed] w-full" style="text-decoration: bold" href="">Confirm Order</a>
+                <a id="link" class="p-2 bg-orange-400 font-bold text-xl w-full" style="text-decoration: bold" href="">Confirm Order</a>
             <?php
             }
             ?>

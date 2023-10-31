@@ -53,7 +53,7 @@ require 'includes/common.php';
             <p>Price: Rs <?php echo $value['price'] ?>.00</p>
             <?php
             if (check_if_added_to_cart($value['id'])) {
-              echo '<a href="#" class="bg-green-400 p-2 rounded-xl text-white hover:bg-green-200" disabled>Added to cart</a>';
+              echo '<a href="#" class="bg-green-400 p-2 rounded-xl text-black hover:bg-green-200" disabled>Added to cart</a>';
             } else {
             ?>
               <a href="cart-add.php?id=<?php echo $value['id']?>" name="add" value="add" class="bg-blue-400 p-2 rounded-xl text-white hover:bg-blue-500">Add to cart</a>
