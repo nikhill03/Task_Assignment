@@ -7,7 +7,7 @@ require 'includes/common.php';
 <html lang="en">
 
 <head>
-  <title>Lifestyle Store</title>
+  <title>GearLooseLabs</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="shortcut icon" href="icons/head.png" type="image/x-icon">
@@ -26,9 +26,9 @@ require 'includes/common.php';
 
   <div class="flex flex-col items-start min-h-[100vh]">
 
-    <div class="" id="head">
-      <div class="text-center mb-2 p-4">
-        <h1 class="text-4xl font-bold">Welcome to GearLoose Labs!</h1>
+    <div class="bg-orange-400" id="head">
+      <div class="text-center mb-1 p-2 ">
+        <h1 class="text-4xl font-bold">GearLoose Labs!</h1>
         <p class="font-semibold text-xl">Lab Equipments, Accessories, all at one place.</p>
       </div>
     </div>
